@@ -1,0 +1,45 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 70px;
+  z-index: 1000;
+  background: blue;
+
+  .navbar {
+    display: flex;
+
+    a {
+      flex: 1;
+      text-align: center;
+      font-size: 20px;
+      line-height: 70px;
+      color: #fff;
+
+      &:hover {
+        filter: brightness(0.9);
+      }
+
+      &:nth-child(1) {
+        background: #e74c3c;
+      }
+      &:nth-child(2) {
+        background: #27ae60;
+      }
+      &:nth-child(3) {
+        background: #2980b9;
+      }
+      &:nth-child(4) {
+        background: #8e44ad;
+      }
+      &:nth-child(5) {
+        background: #f39c12;
+      }
+
+      span {
+        padding-left: 5px;
+      }
+    }
+  }
+}

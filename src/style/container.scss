@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  width: 500%;
+  height: 100vh;
+
+  .section {
+    display: flex;
+    width: 20%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: 12vw;
+    letter-spacing: 0.4rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bolder;
+
+    &:nth-child(1) {
+      background: #e74c3c;
+    }
+    &:nth-child(2) {
+      background: #27ae60;
+    }
+    &:nth-child(3) {
+      background: #2980b9;
+    }
+    &:nth-child(4) {
+      background: #8e44ad;
+    }
+    &:nth-child(5) {
+      background: #f39c12;
+    }
+  }
+}
